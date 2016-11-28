@@ -91,8 +91,10 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
      <Compile Include="Assets\Scripts\CoinContact.cs" />
+     <Compile Include="Assets\Scripts\CoinsCreator.cs" />
+     <Compile Include="Assets\Scripts\HZWallsCreator.cs" />
      <Compile Include="Assets\Scripts\KeyContact.cs" />
-     <Compile Include="Assets\Scripts\WallsCreator.cs" />
+     <Compile Include="Assets\Scripts\VTWallsCreator.cs" />
      <Compile Include="Assets\Scripts\WayPointContact.cs" />
      <Compile Include="Assets\Scripts\WayPointCreators.cs" />
      <Compile Include="Assets\Udacity\Scripts\Coin.cs" />

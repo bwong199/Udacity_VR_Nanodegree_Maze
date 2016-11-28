@@ -18,10 +18,11 @@ public class Key : MonoBehaviour {
      	if(other.gameObject.name == "Main Camera"){
 			print ("On Trigger Enter");
 
+
 			GetComponent<AudioSource>().Play();
-			Destroy (GameObject.Find ("Door"));
-
-
+			GameObject doorObject = GameObject.Find ("Door");
+			Door doorScript =  doorObject.GetComponent <Door>();
+			doorScript.locked = false;
      	}
      }
 }

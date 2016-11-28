@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WallsCreator : MonoBehaviour {
+public class CoinsCreator : MonoBehaviour {
 
 
 	public GameObject prefab;
