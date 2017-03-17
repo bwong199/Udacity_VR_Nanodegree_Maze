@@ -16,3 +16,7 @@
 /Users/benwong/Desktop/Unity/P3_A_Maze/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/benwong/Desktop/Unity/P3_A_Maze/obj/Debug/Assembly-CSharp.dll
 /Users/benwong/Desktop/Unity/P3_A_Maze/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/benwong/Desktop/Unity/P3_A_Maze/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/benwong/Desktop/Unity/P3_A_Maze/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/benwong/Desktop/Unity/P3_A_Maze/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/benwong/Desktop/Unity/P3_A_Maze/Temp/bin/Debug/UnityEngine.VR.dll
