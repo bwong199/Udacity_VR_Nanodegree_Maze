@@ -13,9 +13,13 @@ public class Coin : MonoBehaviour
         // Instantiate the CoinPoof Prefab where this coin is located
         // Make sure the poof animates vertically
         // Destroy this coin. Check the Unity documentation on how to use Destroy
-		Destroy (this.gameObject);
+		
 		GetComponent<AudioSource> ().enabled = true;
 		GetComponent<AudioSource> ().Play ();
+
+			Destroy (this.gameObject, 0.5f);
+
+
     }
 
 //	void OnTriggerEnter(Collider other)
