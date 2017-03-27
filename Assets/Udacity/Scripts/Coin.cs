@@ -6,7 +6,7 @@ public class Coin : MonoBehaviour
 {
     //Create a reference to the CoinPoofPrefab
     public GameObject gameObject; 
-
+    public AudioClip audioClip;
 
 
     public void OnCoinClicked() {
@@ -14,26 +14,14 @@ public class Coin : MonoBehaviour
         // Make sure the poof animates vertically
         // Destroy this coin. Check the Unity documentation on how to use Destroy
 		
-		GetComponent<AudioSource> ().enabled = true;
-		GetComponent<AudioSource> ().Play ();
-
-			Destroy (this.gameObject, 0.5f);
+//		GetComponent<AudioSource> ().enabled = true;
+//		GetComponent<AudioSource> ().Play ();
+		AudioSource.PlayClipAtPoint (audioClip, this.transform.position);
+		Destroy (this.gameObject);
 
 
     }
 
-//	void OnTriggerEnter(Collider other)
-//     {
-//		
-//     	if(other.gameObject.name == "Main Camera"){
-//			print ("On Trigger Enter: Coin Contact");
-//
-//			
-//			Destroy (this.gameObject);
-//
-//
-//     	}
-//     }
 
 	void Update(){
 

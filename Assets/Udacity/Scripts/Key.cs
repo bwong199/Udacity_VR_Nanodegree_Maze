@@ -5,7 +5,9 @@ using UnityEngine;
 public class KeyContact : MonoBehaviour 
 {
     //Create a reference to the KeyPoofPrefab and Door
-
+	public static bool KEYFOUND; 
+	public AudioClip audioClip;
+	public GameObject gameObject;
 	void Update()
 	{
 		//Bonus: Key Animation
@@ -13,10 +15,11 @@ public class KeyContact : MonoBehaviour
 
 	public void OnKeyClicked()
 	{
-        // Instatiate the KeyPoof Prefab where this key is located
-        // Make sure the poof animates vertically
-        // Call the Unlock() method on the Door
-        // Destroy the key. Check the Unity documentation on how to use Destroy
+		Destroy (this.gameObject);
+		KEYFOUND = true; 
+		AudioSource.PlayClipAtPoint (audioClip, this.transform.position);
+
+
     }
 
 }
