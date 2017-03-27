@@ -42,16 +42,9 @@ public class SignPost : MonoBehaviour
 	{
 //		print ("I was clicked");     
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		Key.KEYFOUND = false;
 	}
 
-	void OnMouseDown ()
-	{
-		if (EventSystem.current.IsPointerOverGameObject ()) {
-			print ("clicked");
-
-			ResetScene ();
-		}
-	}
 
 
 }

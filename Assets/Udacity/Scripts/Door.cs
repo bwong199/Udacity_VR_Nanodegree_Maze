@@ -7,25 +7,23 @@ public class Door : MonoBehaviour
 	// Create a boolean value called "locked" that can be checked in Update()
 
 	public GameObject gameObject;
-
+	public AudioClip audioClipDoorOpen;
+	public AudioClip audioClipDoorClose;
 	void Update ()
 	{
-		if(Key.KEYFOUND){
-			Unlock ();
-		}
+
 		// If the door is unlocked and it is not fully raised
 		// Animate the door raising up
 	}
 
 	public void Unlock ()
 	{
-		gameObject.transform.position = new Vector3 (gameObject.transform.position.x, 25, gameObject.transform.position.z);
-	}
-
-	void OnMouseDown ()
-	{
-		if (!Key.KEYFOUND) {
-			GetComponent<AudioSource> ().Play ();
+		if (Key.KEYFOUND) {
+			gameObject.transform.position = new Vector3 (gameObject.transform.position.x, 25, gameObject.transform.position.z);
+			AudioSource.PlayClipAtPoint (audioClipDoorOpen, this.transform.position);
+		} else {
+			AudioSource.PlayClipAtPoint (audioClipDoorClose, this.transform.position);
 		}
 	}
+		
 }

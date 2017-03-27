@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udacity_VR_Nanodegree_Maze", "Assembly-CSharp.csproj", "{63338809-8B63-25E7-E3B6-39137095F899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udacity_VR_Nanodegree_Maze", "Assembly-CSharp-Editor.csproj", "{4878E5B5-D417-4AC2-FAF6-A6B9B9532B43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63338809-8B63-25E7-E3B6-39137095F899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63338809-8B63-25E7-E3B6-39137095F899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63338809-8B63-25E7-E3B6-39137095F899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63338809-8B63-25E7-E3B6-39137095F899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4878E5B5-D417-4AC2-FAF6-A6B9B9532B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4878E5B5-D417-4AC2-FAF6-A6B9B9532B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4878E5B5-D417-4AC2-FAF6-A6B9B9532B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4878E5B5-D417-4AC2-FAF6-A6B9B9532B43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
